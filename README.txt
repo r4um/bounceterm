@@ -33,7 +33,7 @@ Development
 
 Download the official development repository using [Mercurial][4]:
 
-    hg clone http://bitheap.org/hg/bounceterm/ bounceterm
+    hg clone http://bitheap.org/hg/bounceterm/
 
 Run `make` to compile the plugin, and `make install` to install it into
 your home directory's SIMBL plugins folder.
