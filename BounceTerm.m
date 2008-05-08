@@ -1,6 +1,6 @@
 #import <Cocoa/Cocoa.h>
 
-@interface BounceTerm: NSObject {}
+@interface BounceTerm: NSObject
 @end
 
 @implementation BounceTerm
