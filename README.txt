@@ -62,6 +62,7 @@ Download the official development repository using [Mercurial][4]:
     hg clone http://bitheap.org/hg/bounceterm/
 
 Run `make` to compile the plugin, and `make install` to install it into
-your home directory's SIMBL plugins folder.
+your home directory's SIMBL plugins folder. Run `make` and `make builddmg`
+to create a disk image of the application.
 
 [4]: http://www.selenic.com/mercurial/
