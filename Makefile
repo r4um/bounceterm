@@ -2,7 +2,7 @@ CFLAGS=-bundle -framework Cocoa -O2 -Wall
 OBJECTS=BounceTerm.m
 NAME=BounceTerm
 TARGET=$(NAME).bundle/Contents/MacOS/$(NAME)
-DMGFILES=$(NAME).bundle README.txt
+DMGFILES=$(NAME).bundle README.txt LICENSE.txt
 
 all: build
 
