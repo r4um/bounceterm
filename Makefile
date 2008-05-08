@@ -25,7 +25,7 @@ builddmg:
 	osacompile -o $(NAME)/Install.app Install.scpt
 	osacompile -o $(NAME)/Uninstall.app Uninstall.scpt
 	cp -R $(DMGFILES) $(NAME)
-	hdiutil create -fs HFS+ -srcfolder $(NAME) -volname $(NAME) $(NAME).dmg
+	hdiutil create -fs HFS+ -imagekey zlib-level=9 -srcfolder $(NAME) -volname $(NAME) $(NAME).dmg
 	rm -r $(NAME)
 clean:
 	rm -rf $(NAME).bundle
