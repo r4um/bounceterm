@@ -6,10 +6,9 @@ the dock icon bounce when a bell or beep is triggered. This can be useful if
 you have a long-running process going on and you want to be notified when
 it's done (assuming it beeps, of course).
 
-No configuration is necessary, just install SIMBL and move
-`BounceTerm.bundle` to `Library/Application Support/SIMBL/Plugins` in
-your home folder and restart Terminal.app. To uninstall the plugin, simply
-delete the plugin's folder.
+No configuration is necessary, just open the `.dmg` file, run
+`Install.command`, and restart Terminal.app. To uninstall, simply run
+`Uninstall.command` from the `.dmg`.
 
 If you want to make sure the plugin's working, try running
 `while [ 1 ]; do echo -n '\a'; sleep 2; done` in your shell and focusing a
@@ -33,16 +32,16 @@ Frequently Asked Questions
 
 > Won't this plugin break if Apple releases an update to Terminal.app?
 
-No. The plugin is less than 30 lines long. It uses no APIs from Terminal.app,
-it merely adds an observer for Terminal.app's beep notification. The worst
-that could happen is that the notification name changes or goes away, in
-which case the plugin would simply do nothing.
+No. The plugin uses no APIs from Terminal.app, it merely adds an observer
+for Terminal.app's beep notification (through standard APIs). The worst that
+could happen is that the notification name changes or goes away, in which
+case the plugin would simply do nothing.
 
 > But most programs I use don't beep. How do I make them beep after exiting?
 
-You just need to run `echo -n '\a'` after the program. I recommend adding
-an alias in your shell's `rc` (like `~/.bashrc` or `~/.zshrch`) to simplify
-the process:
+You just need to run `echo -n '\a'` after the program. You can simplify the
+process by adding an alias in your shell's `rc` file (like `~/.bashrc` or
+`~/.zshrc`):
 
     alias beep="echo -n '\a'"
 
