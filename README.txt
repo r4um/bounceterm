@@ -6,9 +6,8 @@ the dock icon bounce when a bell or beep is triggered. This can be useful if
 you have a long-running process going on and you want to be notified when
 it's done (assuming it beeps, of course).
 
-No configuration is necessary, just open the `.dmg` file, run
-`Install.command`, and restart Terminal.app. To uninstall, simply run
-`Uninstall.command` from the `.dmg`.
+No configuration is necessary, just open the `.dmg` file, run `Install`, and
+restart Terminal.app. To uninstall, simply run `Uninstall` from the `.dmg`.
 
 If you want to make sure the plugin's working, try running
 `while [ 1 ]; do echo -n '\a'; sleep 2; done` in your shell and focusing a
