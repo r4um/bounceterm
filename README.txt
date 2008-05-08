@@ -22,9 +22,9 @@ every two seconds.
 Download
 --------
 
-[BounceTerm.zip][3] (11 KB)
+[BounceTerm.dmg][3] (61 KB)
 
-[3]: http://bitheap.org/bounceterm/BounceTerm.zip
+[3]: http://bitheap.org/bounceterm/BounceTerm.dmg
 
 
 Frequently Asked Questions
