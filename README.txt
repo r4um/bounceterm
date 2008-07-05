@@ -65,3 +65,11 @@ your home directory's SIMBL plugins folder. Run `make` and `make builddmg`
 to create a disk image of the application.
 
 [4]: http://www.selenic.com/mercurial/
+
+
+Contact
+-------
+
+Contact information can be found on my site, [brodierao.com][5].
+
+[5]: http://brodierao.com/
