@@ -21,7 +21,7 @@ every two seconds.
 Download
 --------
 
-[BounceTerm.dmg][3] (55 KB)
+[BounceTerm.dmg][3] (64 KB)
 
 [3]: http://bitheap.org/bounceterm/BounceTerm.dmg
 
