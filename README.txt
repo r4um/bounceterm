@@ -56,20 +56,24 @@ If you want the dock icon to bounce only when there's an error, try:
 Development
 -----------
 
-Download the official development repository using [Mercurial][4]:
+Download the official development repository using [Git][4]:
 
-    hg clone http://bitheap.org/hg/bounceterm/
+    git clone git://github.com/brodie/bounceterm.git
 
 Run `make` to compile the plugin, and `make install` to install it into
 your home directory's SIMBL plugins folder. Run `make` and `make builddmg`
 to create a disk image of the application.
 
-[4]: http://www.selenic.com/mercurial/
+Visit [GitHub][5] if you'd like to fork the project, watch for new changes,
+or report issues.
+
+[4]: http://git-scm.org/
+[5]: http://github.com/brodie/mouseterm
 
 
 Contact
 -------
 
-Contact information can be found on my site, [brodierao.com][5].
+Contact information can be found on my site, [brodierao.com][6].
 
-[5]: http://brodierao.com/
+[6]: http://brodierao.com/
