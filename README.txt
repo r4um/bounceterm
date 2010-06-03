@@ -68,7 +68,7 @@ Visit [GitHub][5] if you'd like to fork the project, watch for new changes,
 or report issues.
 
 [4]: http://git-scm.org/
-[5]: http://github.com/brodie/mouseterm
+[5]: http://github.com/brodie/bounceterm
 
 
 Contact
