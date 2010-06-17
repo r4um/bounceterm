@@ -14,7 +14,7 @@ buildnative:
 	mkdir -p $(NAME).bundle/Contents/MacOS
 	gcc $(CFLAGS) $(OBJECTS) -o $(TARGET)
 	cp Info.plist $(NAME).bundle/Contents
-builddmg:
+dmg builddmg: build
 	rm -f $(NAME).dmg
 	mkdir $(NAME)
 	osacompile -o $(NAME)/Install.app Install.scpt
@@ -25,6 +25,6 @@ builddmg:
 clean:
 	rm -rf $(NAME).bundle
 	rm -f $(NAME).dmg
-install:
+install: build
 	mkdir -p $(HOME)/Library/Application\ Support/SIMBL/Plugins
 	cp -R $(NAME).bundle $(HOME)/Library/Application\ Support/SIMBL/Plugins
