@@ -39,10 +39,10 @@ case the plugin would simply do nothing.
 > But most programs I use don't beep. How do I make them beep after exiting?
 
 You just need to run `echo -n '\a'` after the program. You can simplify the
-process by adding an alias in your shell's `rc` file (like `~/.bashrc` or
+process by adding a function in your shell's `rc` file (like `~/.bashrc` or
 `~/.zshrc`):
 
-    alias beep="echo -n '\a'"
+    beep() { "echo -n '\a'" }
 
 Now if you'd like to have the dock icon bounce after a command finishes, run:
 
