@@ -23,7 +23,7 @@
 
 + (void) emulatorDidBeep: (NSNotification*) notification
 {
-    [NSApp requestUserAttention: NSInformationalRequest];
+    [NSApp requestUserAttention: NSCriticalRequest];
 }
 
 @end
